@@ -9,5 +9,6 @@ def my_collect(array)
   new_array
 end
 
-# syntax differences with .push and <<
+# syntax differences with .push and << ...
 # if using <<, its necessary to wrap array[i] in () and remove space after yield
+# .push works with or without () and space
