@@ -6,6 +6,6 @@ def my_collect(array)
   end
 end
 
-my_collect(array) do |x|
+my_collect(languages) do |x|
   x.capitalize
 end
