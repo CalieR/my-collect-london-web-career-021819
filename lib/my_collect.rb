@@ -5,3 +5,7 @@ def my_collect(array)
     i = i + 1
   end
 end
+
+my_collect(languages) do |x|
+  x.capitalize
+end
